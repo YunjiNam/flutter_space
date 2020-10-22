@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_space/ui/home/home_page.dart';
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+  // Routes.initRoutes();
+  runApp(new MaterialApp(
+    title: 'Planets',
+    home: new HomePage(),
+  ));
 }
